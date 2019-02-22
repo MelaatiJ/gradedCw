@@ -3,7 +3,7 @@ from .import views
 
 
 
-#url paths
+#url paths that all connect to the home page
 urlpatterns=[
     path('home/', views.index, name="index"),
     path('home/base/', views.base, name='base'),
